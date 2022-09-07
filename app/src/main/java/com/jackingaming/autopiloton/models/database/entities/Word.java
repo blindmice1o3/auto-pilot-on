@@ -1,4 +1,4 @@
-package com.jackingaming.autopiloton.database.entities;
+package com.jackingaming.autopiloton.models.database.entities;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;

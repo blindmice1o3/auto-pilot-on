@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 
-import com.jackingaming.autopiloton.database.entities.Word;
+import com.jackingaming.autopiloton.models.database.entities.Word;
 
 public class WordListAdapter extends ListAdapter<Word, WordViewHolder> {
 

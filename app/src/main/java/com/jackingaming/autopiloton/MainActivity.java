@@ -10,7 +10,8 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.jackingaming.autopiloton.database.entities.Word;
+import com.jackingaming.autopiloton.models.WordViewModel;
+import com.jackingaming.autopiloton.models.database.entities.Word;
 import com.jackingaming.autopiloton.views.WordListAdapter;
 
 public class MainActivity extends AppCompatActivity {

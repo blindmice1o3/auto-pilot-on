@@ -1,4 +1,4 @@
-package com.jackingaming.autopiloton.database;
+package com.jackingaming.autopiloton.models.database;
 
 import android.content.Context;
 
@@ -8,8 +8,8 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.jackingaming.autopiloton.database.daos.WordDao;
-import com.jackingaming.autopiloton.database.entities.Word;
+import com.jackingaming.autopiloton.models.database.daos.WordDao;
+import com.jackingaming.autopiloton.models.database.entities.Word;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

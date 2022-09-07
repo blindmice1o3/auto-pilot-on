@@ -1,4 +1,4 @@
-package com.jackingaming.autopiloton.database.daos;
+package com.jackingaming.autopiloton.models.database.daos;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.jackingaming.autopiloton.database.entities.Word;
+import com.jackingaming.autopiloton.models.database.entities.Word;
 
 import java.util.List;
 

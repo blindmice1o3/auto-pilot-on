@@ -1,12 +1,12 @@
-package com.jackingaming.autopiloton;
+package com.jackingaming.autopiloton.models;
 
 import android.app.Application;
 
 import androidx.lifecycle.LiveData;
 
-import com.jackingaming.autopiloton.database.WordRoomDatabase;
-import com.jackingaming.autopiloton.database.daos.WordDao;
-import com.jackingaming.autopiloton.database.entities.Word;
+import com.jackingaming.autopiloton.models.database.WordRoomDatabase;
+import com.jackingaming.autopiloton.models.database.daos.WordDao;
+import com.jackingaming.autopiloton.models.database.entities.Word;
 
 import java.util.List;
 
